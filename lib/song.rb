@@ -42,9 +42,8 @@ def self.alphabetical
   @@all.sort_by{ |x| x.name }
 end
 
-def self.new_from_filename
+def self.new_from_filename(name)
   @@all.map { |x, y| "#{x} "-" #{y}" }
-
 end
 
 end
