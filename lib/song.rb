@@ -43,6 +43,6 @@ def self.alphabetical
 end
 
 def self.new_from_filename
-  @@all.map { |x, y| "#{x} - #{y}" }
+  @@all.map { |x, y| "#{x} "-" #{y}" }
 
 end
